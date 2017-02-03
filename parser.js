@@ -1,10 +1,10 @@
 var http = require('http'),
 fs = require('fs'),
-cheerio = require('C:/Program Files/nodejs/node_modules/npm/node_modules/cheerio'),
-express = require('C:/Program Files/nodejs/node_modules/npm/node_modules/express'),
-request = require('C:/Program Files/nodejs/node_modules/npm/node_modules/request'),
+cheerio = require('cheerio'),
+express = require('express'),
+request = require('request'),
 hotline_url = "http://hotline.ua/mobile-mobilnye-telefony-i-smartfony/apple-iphone-7-32gb-black/";
-var path = "C:/Users/afair/Downloads/Programmirovanie/result.txt";
+var path = "path/to/file";
 var goods = [], goods_json = []; 
 
 var parser = function(url) {
